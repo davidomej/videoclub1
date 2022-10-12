@@ -1,0 +1,28 @@
+article{
+    width: 200px;
+    padding:5px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 5px;
+    float:left;
+}
+
+h3{
+    margin:2px;
+
+}
+h5{
+    margin:2px;
+}
+
+#detalles{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    position:fixed;
+    width: 20%;
+    left: 40;
+    top: 20%;
+}
