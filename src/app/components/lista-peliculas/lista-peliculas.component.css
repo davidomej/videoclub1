@@ -18,11 +18,15 @@ h5{
 #detalles{
     text-align: center;
     width: 200px;
-    padding: 5px;
+    padding: 10px;
     background-color: cornflowerblue;
     border-radius: 5px;
     position:fixed;
-    width: 20%;
-    left: 40;
+    left: 40%;
     top: 20%;
+}
+
+img{
+    width: 200px;
+    height: 350px;
 }

@@ -1,8 +1,9 @@
-<input type="text" placeholder="Titulo" [(ngModel)] ="nuevaPelicula.titulo">
-<input type="text" placeholder="Director" [(ngModel)] ="nuevaPelicula.director">
-<input type="text" placeholder="imagen" [(ngModel)] ="nuevaPelicula.imagen">
-
-<button (click)="agregarPelicula()">Agregar Película</button>
+<div>
+    <input type="text" placeholder="Titulo" [(ngModel)] ="nuevaPelicula.titulo">
+    <input type="text" placeholder="Director" [(ngModel)] ="nuevaPelicula.director">
+    <input type="text" placeholder="imagen" [(ngModel)] ="nuevaPelicula.imagen">
+    <button (click)="agregarPelicula()">Agregar Película</button>
+</div>
 
 <article *ngFor="let pelicula of peliculas">
     <h3>{{pelicula.titulo}}</h3>
